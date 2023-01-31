@@ -78,3 +78,24 @@
 // method ---2 text r sathe sathe text r style tao change korbe 
 //$("button").html("<em>hey</em>");
 // jquery or $ target kore sob kota kota element kei jeta amra target box e likhchi
+
+
+// getter and setter for attributes using attr method in jquery
+//console.log($("img").attr("src"));
+// ager code tate amra attribute r mal mosla r naam ta jante chaichi using console.log
+
+// next line r code ta anchor tag r attribute href r mal mosla takei change kore debe
+// age index.html file e mal mosla === github.com chilo akhun amra setake change korchi to google.com
+//$("a").attr("href","https://www.google.com/");
+
+// $("a").attr("class");
+
+
+// class is also an html attribute 
+// tai amra h1 tag e bt class attach korchi
+// $("h1").attr("class"); ei code ta h1 r sathe koto guno class attched sei class gunor naam amader debe
+
+
+
+// $("element r naam").attr("class");
+// ei code ta diye amra ekta element e ki ki class attached ache chaile dekhte pabo
