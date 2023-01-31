@@ -99,3 +99,28 @@
 
 // $("element r naam").attr("class");
 // ei code ta diye amra ekta element e ki ki class attached ache chaile dekhte pabo
+
+
+
+// adding event listener to h1 tag
+// $("h1").click(function() {
+//     $("h1").css("color" , "purple");
+// });
+
+//now ami jodi ebar click kori sob kota button e and click korar por h1 r color jate change hoye 
+// using queryselector tahole for loop lagbe aar duto line queryselectorall fn ta likhte hobe jeta sombhob na
+// now ami jodi ebar click kori sob kota button e and click korar por h1 r color jate change hoye 
+// using j query
+
+// $("button").click(function(){
+//     $("h1").css("color","purple");
+// })
+
+
+// now ebar jodi ami ekta input box create kori html file e aar input file box tate
+// je key ta tipchi seta jodi ami dekhte chai then kepress fn take use korbo using jquery
+
+// $("input").keypress(function(event){
+//     console.log(event.key);
+
+// })
