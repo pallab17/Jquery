@@ -61,6 +61,8 @@
 
 $("h1").addClass("bt");
 
+// element theke class remove korbo in jquery using removeClass fn
+$("h1").removeClass("bt");
 
 
 
