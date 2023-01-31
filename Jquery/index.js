@@ -67,3 +67,14 @@
 
 //$("h1").hasClass("bt");
 // $("element").hasClass("class tar naam jeta attched ache kina check korchi");
+
+
+
+// to manipulate/replace/update text using jquery
+// method ---1 sudhu text tai change korbe
+//$("h1").text("bye");
+
+
+// method ---2 text r sathe sathe text r style tao change korbe 
+//$("button").html("<em>hey</em>");
+// jquery or $ target kore sob kota kota element kei jeta amra target box e likhchi
