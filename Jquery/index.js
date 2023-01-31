@@ -15,7 +15,7 @@
 // alternate soln hocche amra script link cdn gulo add korbo html file e
 // before  sesh r body tag jate we can ignore writing jquery ready fn
 
-$("h1").css("color", "red");
+//$("h1").css("color", "red");
 
 // selecting elements with jquery
 //$("selector");
@@ -25,3 +25,31 @@ $("h1").css("color", "red");
 // jquery ke short e dollar sign diye lekha jaye $ 
 // jokhun amra jquery diye element select korchi tokhun sob kota element ei target hocche with that selector naam
 // mane  $("h1"); ei code ta sob kota element with h1 tag ke target korche 
+
+
+
+// css ke target korar jonno using jquery 
+// dot css property use korte hobe
+//  $("selector/element").css("what property i want to change","what value/details i want to change in that property");
+// e.g.  $("h1").css("color","green");
+//$("h1").css("color","red");
+// ekhane h1 elemnt ke target korchi ebong tar color property ke change korte chaichi
+// value/details == color r rong red oita change korte chaichi color property under e 
+
+
+//$("h1").css("color","green");
+
+
+
+// eibar ekhane ekta case ache
+// jodi ami element tar details/informatio/data dekhte  chai using jquery 
+// then $("h1").css("color"); ei code ta likhle i will get the data about the elemennt i am searching
+// ei code tate h1 element r color take dekhte chai jeta dekhte pabo writing this code
+// ebar if i wanna see this details in console then console.log likhe ei code ta likhe debo
+// console.log($("h1").css("color"));
+//$("element/selctor").css("kon property i wanna get"); -->syntax
+//console.log($("h1").css("font-size"));
+//but
+
+
+
