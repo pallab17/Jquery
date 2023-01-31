@@ -126,9 +126,17 @@
 // })
 
 
-//ebar jodi ami whole page/website e kono ekta key click korle 
+//ebar jodi ami whole page/website e kono ekta key press korle 
 // kon key ta click/press/tipechi dekhte chai then document take target korbo
 // $(document).keypress(function(event){
 //     console.log(event.key);
+
+// })
+
+
+// ebar jodi ami whole page/website e kono ekta key press korle 
+// // h1 r text r jayega te sei key ta dekhate chaichi
+// $(document).keypress(function(event){
+//    $("h1").text(event.key);
 
 // })
