@@ -59,10 +59,19 @@
 // css code attach kore debo to a element using addClass function using 
 // jquery 
 
-$("h1").addClass("bt");
+// $("h1").addClass("bt");
 
-// element theke class remove korbo in jquery using removeClass fn
-$("h1").removeClass("bt");
+// // element theke class remove korbo in jquery using removeClass fn
+// $("h1").removeClass("bt");
+
+
+// ebar ekta r beshi class attach korbo to a element using j query
+// ager code tai use korbo i.e. ekta class attach korar code ta
+// but code tate amra bracket tar modhe ekta class likhe space diye aar ekta 
+// class r naam lijhe debo
+
+$("h1").addClass("bt bm");
+
 
 
 
