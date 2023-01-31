@@ -10,4 +10,4 @@ but ei file ta human readable so amra bujhte pari code ta
 // now minification ki kore?
 // minification ebare space comments sob uriye deye jate space ta 1000 bytes theke kome 600-700 bytes hoye jaye
 // as browser r kichu ese jayena space comments na thakle tai 
-//
+// beowser readable toiri kore deye file take minification r process ta
