@@ -140,3 +140,11 @@
 //    $("h1").text(event.key);
 
 // })
+
+// adding event listener using on fn instead of click and keypress function
+// $("h1").on("mouseover",function(){
+//     $("h1").css("color","purple");
+// })
+// $("h1").on("blur",function(){
+//     $("h1").css("color","");
+// })
