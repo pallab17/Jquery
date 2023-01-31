@@ -172,34 +172,38 @@
 //    animations using j query
 
 // $("button").on("click",function(){
-//     $("h1").hide();
+//     $("h1").hide();   // h1 ke hide kore debe 
 // })
 // $("button").on("click",function(){
-//     $("h1").show();
+//     $("h1").show();   // h1 ke show korbe
 // })
 // $("button").on("click",function(){
-//     $("h1").toggle();
+//     $("h1").toggle();  // button click korle ekbar h1 hide hobe ekbar show hobe
 // })
 // $("button").on("click",function(){
-//     $("h1").fadeOut();
+//     $("h1").fadeOut();   // h1 tag ta hide hobe but opacity wise mane blur hoye hide hobe
 // })
 // $("button").on("click",function(){
-//     $("h1").fadeIn();
+//     $("h1").fadeIn();  // h1 tag ta show hobe opacity wise mane non blur hoye show hobe
 // })
 // $("button").on("click",function(){
-//     $("h1").slideUp();
+//     $("h1").slideUp();  // h1 ta slide hoye hide hobe
 // })
 // $("button").on("click",function(){
-//     $("h1").slideDown();
+//     $("h1").slideDown(); // h1 ta slide hoye show korbe
 // })
 // $("button").on("click",function(){
-//     $("h1").slideToggle();
+//     $("h1").slideToggle(); // button click korle ekbar h1 hide hobe ekbar show hobe in a sliding manner
 // })
 
-$("button").on("click",function(){
-    $("h1").animate({opacity:0.5}); // dot animate  fn ta amader nijer css add korte help korbe
-    // ccurly braces {} r bhetore amra css likhte parbo 
-    //imp point hocche sudhu numeric values allowed in the right side i.e. color = red not allowed right sidee e only numbers allowed i.e. 1,2,...
-})
+// $("button").on("click",function(){
+//     $("h1").animate({opacity:0.5}); // dot animate  fn ta amader nijer css add korte help korbe
+//     // ccurly braces {} r bhetore amra css likhte parbo 
+//     //imp point hocche sudhu numeric values allowed in the right side i.e. color = red not allowed right sidee e only numbers allowed i.e. 1,2,...
+// })
+// $("button").on("click",function(){
+//     $("h1").slideUp().slideDown().animate({opacity:0.5});  //automatically h1 tar opor 3 te fn apply hobe continuosly
+//     // prothome hide hobe tarpor show hobe both in a sliding manner tarpor blue hobe 50%
+// })
 
 
