@@ -49,7 +49,20 @@
 // console.log($("h1").css("color"));
 //$("element/selctor").css("kon property i wanna get"); -->syntax
 //console.log($("h1").css("font-size"));
-//but
+
+
+
+
+
+//but js filee  e css r code lekha ta bhalo practice noye
+// tai amra  css file e css code likhe ekhane js file
+// css code attach kore debo to a element using addClass function using 
+// jquery 
+
+$("h1").addClass("bt");
+
+
+
 
 
 
