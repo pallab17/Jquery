@@ -169,3 +169,37 @@
 // $("button").remove(); // this will remove all the buttons in the page
 
 
+//    animations using j query
+
+// $("button").on("click",function(){
+//     $("h1").hide();
+// })
+// $("button").on("click",function(){
+//     $("h1").show();
+// })
+// $("button").on("click",function(){
+//     $("h1").toggle();
+// })
+// $("button").on("click",function(){
+//     $("h1").fadeOut();
+// })
+// $("button").on("click",function(){
+//     $("h1").fadeIn();
+// })
+// $("button").on("click",function(){
+//     $("h1").slideUp();
+// })
+// $("button").on("click",function(){
+//     $("h1").slideDown();
+// })
+// $("button").on("click",function(){
+//     $("h1").slideToggle();
+// })
+
+$("button").on("click",function(){
+    $("h1").animate({opacity:0.5}); // dot animate  fn ta amader nijer css add korte help korbe
+    // ccurly braces {} r bhetore amra css likhte parbo 
+    //imp point hocche sudhu numeric values allowed in the right side i.e. color = red not allowed right sidee e only numbers allowed i.e. 1,2,...
+})
+
+
