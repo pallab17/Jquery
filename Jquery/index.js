@@ -136,6 +136,10 @@
 //     $("h1").css("color","");
 // })
 
+
+//          adding elements using j query
+
+
 // before fn ta element r age  bosabe je xyz element take amra bosate chaichi
 // eg   <button>new</button> <h1> hello</h1>
 // ekhane new button ta gota/whole hello button tag  r age bosbe
@@ -157,3 +161,11 @@
 // eg    <h1> hello <button>new</button></h1>  
 // ekhane new button ta h1 tag r content r pore bosche--h1 tag r bhetore
 //$("h1").append("<button>Nooooh</button>");
+
+
+// remove elements using  jquery
+
+
+// $("button").remove(); // this will remove all the buttons in the page
+
+
