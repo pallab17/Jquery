@@ -50,7 +50,7 @@
 // css code attach kore debo to a element using addClass function using
 // jquery
 
- //$("h1").addClass("bt");
+//$("h1").addClass("bt");
 
 // // element theke class remove korbo in jquery using removeClass fn
 // $("h1").removeClass("bt");
@@ -62,23 +62,18 @@
 
 //$("h1").addClass("bt bm");
 
-
 // check korbo ekta element e class attached ache kina using hasClass fn
 
 //$("h1").hasClass("bt");
 // $("element").hasClass("class tar naam jeta attched ache kina check korchi");
 
-
-
 // to manipulate/replace/update text using jquery
 // method ---1 sudhu text tai change korbe
 //$("h1").text("bye");
 
-
-// method ---2 text r sathe sathe text r style tao change korbe 
+// method ---2 text r sathe sathe text r style tao change korbe
 //$("button").html("<em>hey</em>");
 // jquery or $ target kore sob kota kota element kei jeta amra target box e likhchi
-
 
 // getter and setter for attributes using attr method in jquery
 //console.log($("img").attr("src"));
@@ -90,32 +85,26 @@
 
 // $("a").attr("class");
 
-
-// class is also an html attribute 
+// class is also an html attribute
 // tai amra h1 tag e bt class attach korchi
 // $("h1").attr("class"); ei code ta h1 r sathe koto guno class attched sei class gunor naam amader debe
 
-
-
 // $("element r naam").attr("class");
 // ei code ta diye amra ekta element e ki ki class attached ache chaile dekhte pabo
-
-
 
 // adding event listener to h1 tag
 // $("h1").click(function() {
 //     $("h1").css("color" , "purple");
 // });
 
-//now ami jodi ebar click kori sob kota button e and click korar por h1 r color jate change hoye 
+//now ami jodi ebar click kori sob kota button e and click korar por h1 r color jate change hoye
 // using queryselector tahole for loop lagbe aar duto line queryselectorall fn ta likhte hobe jeta sombhob na
-// now ami jodi ebar click kori sob kota button e and click korar por h1 r color jate change hoye 
+// now ami jodi ebar click kori sob kota button e and click korar por h1 r color jate change hoye
 // using j query
 
 // $("button").click(function(){
 //     $("h1").css("color","purple");
 // })
-
 
 // now ebar jodi ami ekta input box create kori html file e aar input file box tate
 // je key ta tipchi seta jodi ami dekhte chai then kepress fn take use korbo using jquery
@@ -125,16 +114,14 @@
 
 // })
 
-
-//ebar jodi ami whole page/website e kono ekta key press korle 
+//ebar jodi ami whole page/website e kono ekta key press korle
 // kon key ta click/press/tipechi dekhte chai then document take target korbo
 // $(document).keypress(function(event){
 //     console.log(event.key);
 
 // })
 
-
-// ebar jodi ami whole page/website e kono ekta key press korle 
+// ebar jodi ami whole page/website e kono ekta key press korle
 // // h1 r text r jayega te sei key ta dekhate chaichi
 // $(document).keypress(function(event){
 //    $("h1").text(event.key);
@@ -148,3 +135,25 @@
 // $("h1").on("blur",function(){
 //     $("h1").css("color","");
 // })
+
+// before fn ta element r age  bosabe je xyz element take amra bosate chaichi
+// eg   <button>new</button> <h1> hello</h1>
+// ekhane new button ta gota/whole hello button tag  r age bosbe
+//--h1 tag r baire
+//$("h1").before("<button>Nooooh</button>");
+
+// after fn ta element r pore  bosabe je xyz element take amra bosate chaichi
+// eg    <h1> hello</h1> <button>new</button>
+// ekhane new button ta gota/whole hello button tag  r pore bosbe 
+//--h1 tag r baire
+//$("h1").after("<button>Nooooh</button>");
+
+// prepend fn ta element r content r age  bosabe je xyz element take amra bosate chaichi
+// eg    <h1>  <button>new</button> hello</h1> 
+// ekhane new button ta h1 tag r content r age bosche--h1 tag r bhetore
+//$("h1").prepend("<button>Nooooh</button>");
+
+// prepend fn ta element r content r pore  bosabe je xyz element take amra bosate chaichi
+// eg    <h1> hello <button>new</button></h1>  
+// ekhane new button ta h1 tag r content r pore bosche--h1 tag r bhetore
+//$("h1").append("<button>Nooooh</button>");
